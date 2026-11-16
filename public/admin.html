@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex"><title>VSpark Admin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/admin.css"></head>
+<body>
+<main id="login" class="lg">
+  <div class="card">
+    <div class="brand"><svg viewBox="0 0 24 24"><path d="M3 4l7 16 3-7M21 4l-7 16"/></svg>VSPARK</div>
+    <span class="chip">Admin Panel</span>
+    <h1>Welcome back</h1>
+    <p class="sub">Sign in to manage Prompt Engineering registrations.</p>
+    <label for="em">Email</label>
+    <input id="em" type="email" placeholder="you@example.com" autocomplete="username">
+    <label for="pw">Password</label>
+    <div class="pw">
+      <input id="pw" type="password" placeholder="Enter your password" autocomplete="current-password">
+      <button type="button" id="eye" class="eye" aria-label="Show password" aria-pressed="false">
+        <svg class="on" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>
+        <svg class="off" viewBox="0 0 24 24"><path d="M3 3l18 18M10.6 6.2A9.8 9.8 0 0 1 12 6c6.5 0 10 6 10 6a17 17 0 0 1-3.2 3.9M6.6 7.6C3.7 9.4 2 12 2 12s3.5 7 10 7c1.5 0 2.9-.4 4.1-.9M9.9 9.9a3 3 0 0 0 4.2 4.2"/></svg>
+      </button>
+    </div>
+    <p id="lerr" class="err" role="alert"></p>
+    <button id="lb" class="primary">Sign in</button>
+    <a class="back" href="/">&larr; Back to website</a>
+  </div>
+</main>
+<main id="app" hidden>
+<header><h1>VSpark Admin</h1><div><span id="live" class="live">● offline</span> <span id="who"></span> <button id="lo" class="g">Sign out</button></div></header>
+<nav id="tabs" class="tabs">
+  <button data-tab="dash" class="on">Dashboard</button><button data-tab="parts">Participants</button><button data-tab="pay">Payments</button><button data-tab="res">Results</button>
+</nav>
+<section id="t-dash"></section>
+<section id="t-parts" hidden></section>
+<section id="t-pay" hidden></section>
+<section id="t-res" hidden></section>
+<p id="empty" class="mu" hidden></p>
+</main>
+<div id="toast" role="status"></div>
+<script src="/js/admin.js" defer></script></body></html>
