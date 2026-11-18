@@ -52,3 +52,23 @@ Not tested against a live MySQL server in this build: run the steps above and te
 
 ## Hero photo
 The hero uses `public/img/campus.jpg` (falls back to a dark gradient if missing). Copy the campus photo from the main VSpark site into that path.
+<img width="1354" height="673" alt="image" src="https://github.com/user-attachments/assets/693aca8b-938d-470c-a1ce-a80ab85a3869" />
+
+<img width="1353" height="678" alt="image" src="https://github.com/user-attachments/assets/396d0600-2b0a-42e8-b116-117f0fd14c94" />
+<img width="1245" height="693" alt="image" src="https://github.com/user-attachments/assets/81aa0772-d716-4598-8bde-b2cf85cec696" />
+<img width="1320" height="677" alt="image" src="https://github.com/user-attachments/assets/40ce5207-11c3-4aee-b751-10c94b290d37" />
+<img width="1363" height="674" alt="image" src="https://github.com/user-attachments/assets/b2392448-53e0-4ddc-9d93-a7462ccfdc81" />
+<img width="1354" height="672" alt="image" src="https://github.com/user-attachments/assets/f69d33b3-3c82-44ec-bf93-84299603f730" />
+<img width="1334" height="694" alt="image" src="https://github.com/user-attachments/assets/b5aead68-ada1-4a51-88db-05b065722d47" />
+Participant portal 
+<img width="1312" height="669" alt="image" src="https://github.com/user-attachments/assets/64e1f471-8d60-4c69-bdb2-4dd93b362e73" />
+
+<img width="1348" height="680" alt="image" src="https://github.com/user-attachments/assets/fbbf5a98-8c72-4fae-8ad9-156d57e25d37" />
+<img width="1342" height="671" alt="image" src="https://github.com/user-attachments/assets/002f87cd-ffc3-46dc-aaea-e7b13f781113" />
+https://vspark-production-b2f96e3c.up.railway.app/
+https://vspark-production-b2f96e3c.up.railway.app/portal
+https://vspark-production-b2f96e3c.up.railway.app/results
+
+
+
+
